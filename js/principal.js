@@ -4,16 +4,17 @@ console.log(titulo.textContent);
 titulo.textContent = ("Eduarda Nutricionista");
    
         var paciente = document.querySelector("#primeiro-paciente");
-
- //console.log(nome);
+        var tdNome = document.querySelector("info.nome")
+        var nome = tdNome.textContent
+        console.log(nome)
 
         var tdPeso = paciente.querySelector(".info-peso");
-        console.log(tdPeso);
-
         var peso = tdPeso.textContent;
-        console.log(paciente)
         console.log(peso)
 
        var tdAltura = document.querySelector(".info-altura");
        var altura = tdAltura.textContent;
-       console.log(altura);    
+       console.log(altura);   
+       
+       var imc = peso/ (altura * altura); 
+       console.log(imc);
