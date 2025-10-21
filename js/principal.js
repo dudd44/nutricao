@@ -3,7 +3,7 @@ console.log(titulo);
 console.log(titulo.textContent);
 titulo.textContent = ("Eduarda Nutricionista");
 
-var paciente = document.querySelectorAll(".paciente");
+var pacientes = document.querySelectorAll(".paciente");
 
 for (var i = 0; i < paciente.length; i++) {
 
