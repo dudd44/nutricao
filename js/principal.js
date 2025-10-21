@@ -5,7 +5,7 @@ titulo.textContent = ("Eduarda Nutricionista");
 
 var pacientes = document.querySelectorAll(".paciente");
 
-for (var i = 0; i < paciente.length; i++) {
+for (var i = 0; i < pacientes.length; i++) {
 
         var paciente = pacientes[i];
 
