@@ -1,7 +1,7 @@
 var titulo = document.querySelector("h1");
 console.log(titulo);
 console.log(titulo.textContent);
-titulo.textContent = ("Eduarda Nutricionista");
+titulo.textContent = ("Nutricionista Eduarda");
 
 var pacientes = document.querySelectorAll(".paciente");
 
