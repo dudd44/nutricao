@@ -30,11 +30,12 @@ for (var i = 0; i < pacientes.length; i++) {
                 console.log("Altura inválida!");
                 alturaEhValida = false;
                 tdImc.textContent = "Altura iválida!";
+
         }
 
         if (alturaEhValida && pesoEhValido) {
                 var imc = peso / (altura * altura);
-                tdImc.textContent = imc;
+                tdImc.textContent = imc.toFixed(2);
         }
 
 }
