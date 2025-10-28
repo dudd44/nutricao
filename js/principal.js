@@ -46,6 +46,11 @@ function mostraMensagem(){
         alert("Olá eu fui clicado")
 }
 
+var botaoAdicionar = document.querySelector("#adicionar-paciente");
+botaoAdicionar.addEventListener("click", function(event) {
+        event.preventDefault();
+        alert("Oi eu sou o botao e fui clicado");
+});
 
 
 
