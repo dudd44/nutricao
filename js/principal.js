@@ -1,6 +1,3 @@
-//onst { createElement } = require("react");
-
-
 var titulo = document.querySelector("h1");
 console.log(titulo);
 console.log(titulo.textContent);
@@ -54,7 +51,7 @@ for (var i = 0; i < pacientes.length; i++) {
 var botaoAdicionar = document.querySelector("#adicionar-paciente");
 botaoAdicionar.addEventListener("click", function(event) {
         event.preventDefault();
-        //alert("Oi eu sou o botao e fui clicado");
+        alert("Oi eu sou o botao e fui clicado");
         var form = document.querySelector("#form-adiciona");
 
         var nome = form.nome.value;
@@ -83,7 +80,6 @@ botaoAdicionar.addEventListener("click", function(event) {
 
         var tabela = document.querySelector("#tabela-pacientes");
         tabela.appendChild(pacienteTr);
-
 
 });
 
