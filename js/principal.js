@@ -1,5 +1,6 @@
 //onst { createElement } = require("react");
 
+
 var titulo = document.querySelector("h1");
 console.log(titulo);
 console.log(titulo.textContent);
@@ -42,16 +43,16 @@ for (var i = 0; i < pacientes.length; i++) {
                 tdImc.textContent = imc.toFixed(2);
         }
 
-titulo.addEventListener("click", mostraMensagem);
-function mostraMensagem() {
-        alert("Olá eu fui clicado")
-}
+        titulo.addEventListener("click", mostraMensagem);
+        function mostraMensagem() {
+                alert("Olá eu fui clicado")
+        }
 
 }
 
 
 var botaoAdicionar = document.querySelector("#adicionar-paciente");
-botaoAdicionar.addEventListener("click", function (event) {
+botaoAdicionar.addEventListener("click", function(event) {
         event.preventDefault();
         //alert("Oi eu sou o botao e fui clicado");
         var form = document.querySelector("#form-adiciona");
