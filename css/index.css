@@ -48,7 +48,8 @@ section h2{
 	display: block;
 	padding-bottom: .5em;
 	border-bottom: 1px solid #ccc;
-	margin-bottom: .5em;
+	margin-bottom: .5em;￼
+
 }
 
 table{
@@ -58,7 +59,8 @@ table{
 
 }
 
-td, th {
+td, th {￼
+
 	padding: .7em;
 	margin: 0;
 	border: 1px solid #ccc;
